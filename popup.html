@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Page ZIP Downloader</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="app">
+    <div class="icon">ZIP</div>
+    <h1>Page ZIP Downloader</h1>
+    <p class="subtitle">Collect downloadable files linked from this page into one ZIP.</p>
+    <button id="downloadBtn">Download page files as ZIP</button>
+    <div id="status" role="status" aria-live="polite">Open a webpage, then click the button.</div>
+    <p class="note">Note: this collects file links and common page assets. It cannot download protected files, content behind login restrictions, or reproduce a complete website perfectly.</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

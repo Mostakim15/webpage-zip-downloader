@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  width: 320px;
+  font-family: Arial, sans-serif;
+  color: #172033;
+  background: #f5f7fb;
+}
+.app { padding: 20px; text-align: center; }
+.icon {
+  width: 54px; height: 54px; margin: 0 auto 12px;
+  display: grid; place-items: center; border-radius: 16px;
+  background: #2563eb; color: white; font-weight: 800; letter-spacing: 1px;
+}
+h1 { font-size: 18px; margin: 0 0 8px; }
+.subtitle { font-size: 12px; line-height: 1.5; color: #5b6475; margin: 0 0 18px; }
+button {
+  width: 100%; border: 0; border-radius: 10px; padding: 12px 10px;
+  background: #2563eb; color: white; font-size: 13px; font-weight: 700;
+  cursor: pointer;
+}
+button:hover { background: #1d4ed8; }
+button:disabled { opacity: .6; cursor: wait; }
+#status {
+  min-height: 38px; margin-top: 12px; padding: 9px;
+  border-radius: 8px; background: white; color: #334155;
+  font-size: 12px; line-height: 1.4; overflow-wrap: anywhere;
+}
+.note { text-align: left; font-size: 10px; line-height: 1.5; color: #6b7280; margin: 14px 0 0; }

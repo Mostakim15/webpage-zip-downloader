@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Web Page ZIP Downloader",
+  "version": "1.0.0",
+  "description": "Download files referenced by the current webpage and package them into a ZIP archive.",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Web Page ZIP Downloader",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
